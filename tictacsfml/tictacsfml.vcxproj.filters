@@ -24,6 +24,30 @@
     <ClInclude Include="targetver.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="State.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINITIONS.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashState.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -32,5 +56,97 @@
     <ClCompile Include="tictacsfml.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tictacsfml.rc">
+      <Filter>Pliki zasobów</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\fonts\arial.ttf">
+      <Filter>Pliki zasobów</Filter>
+    </Font>
+    <Font Include="Resources\fonts\Marker Felt.ttf">
+      <Filter>Pliki zasobów</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\res\.gitkeep">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\res\Achievements.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Game Title.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Grid.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Home Button.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Main Menu Background.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\O Win.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\O.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Pause Background.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Pause Button.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Pause Window.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Play Button Outer.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Play Button.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Resume Button.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Retry Button.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Sound Off.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Sound On.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Splash Background.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\X Win.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\X.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
   </ItemGroup>
 </Project>
